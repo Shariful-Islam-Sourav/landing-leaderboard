@@ -1,5 +1,5 @@
 /* fonts  */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
 
 /* common styles */
 * {
@@ -182,3 +182,14 @@ nav .logo {
   color: #ed6b4f;
   background: #fee5df;
 }
+/* footer styles */
+footer {
+  display: grid;
+  place-items: center;
+  height: 60px;
+  background: #562eff;
+  color: #ffffffbc;
+  margin-top: 50px;
+}
+
+/* ------------------------------Main Css End---------------------------  */
