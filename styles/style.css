@@ -1,9 +1,11 @@
 /* fonts  */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 
 /* common styles */
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 body {
   font-family: "Poppins", sans-serif;
@@ -30,6 +32,40 @@ main {
 hr {
   border: 0.5px solid #d1d1d1;
   margin-bottom: 30px;
+}
+/* header styles  */
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  margin-bottom: 16px;
+  font-weight: 400;
+  background: #562eff;
+  color: #ffffff;
+}
+nav .logo img {
+  width: 40px;
+  height: 50px;
+}
+nav .logo {
+  display: flex;
+  align-items: center;
+}
+.logo h2 {
+  margin-left: 15px;
+  font-weight: 400;
+}
+.nav-menu {
+  display: flex;
+  align-items: center;
+}
+.nav-menu .navigation ul {
+  list-style: none;
+  display: flex;
+}
+.navigation ul li {
+  margin-right: 36px;
 }
 /* top developers style */
 .top-developers {
@@ -107,7 +143,7 @@ hr {
 .course-instructor {
   margin: 4px 0 20px 0;
 }
-.course-info .course-instructor a{
+.course-info .course-instructor a {
   text-decoration: none;
   color: #ed6b4f;
   font-size: 14px;
